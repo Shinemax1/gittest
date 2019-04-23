@@ -2,6 +2,7 @@
  * 实名认证
  */
 module.exports = ({ router, controller }) => {
+  22
   // pages
   router.get('/personal/authentication.html', controller.auth.pc.index); // pc个人中心实名认证
   // router.get('/authenticate/toConsigneeAuth.html', controller.auth.wap.realname1); // 收货人带照片实名认证页面(该页面已移除)
