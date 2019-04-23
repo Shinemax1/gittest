@@ -4,6 +4,7 @@
 module.exports = ({ router, controller }) => {
   // pages
   router.get('/personal/authentication.html', controller.auth.pc.index); // pc个人中心实名认证
+<<<<<<< HEAD
   router.get('/personal/invoicetitle.html', controller.auth.pc.invoicetitle); // pc个人中心我的发票抬头
   
   
@@ -27,6 +28,9 @@ module.exports = ({ router, controller }) => {
   
   
   router.get('/authenticate/toConsigneeAuth.html', controller.auth.wap.realname1); // 收货人带照片实名认证页面(该页面已移除)
+=======
+  // router.get('/authenticate/toConsigneeAuth.html', controller.auth.wap.realname1); // 收货人带照片实名认证页面(该页面已移除)
+>>>>>>> m3
   router.get('/order/inconsistent/list.html', controller.auth.wap.realname2); // 支付信息与是名人不一致页面
   router.get('/order/inconsistent/supply.html', controller.auth.wap.realname3); // 支付信息与是名人不一致补充身份信息页面
   router.get('/authenticate/authentication.html', controller.auth.wap.realnameList); //实名人列表页面
