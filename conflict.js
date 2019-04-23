@@ -2,6 +2,7 @@
  * 实名认证
  */
 module.exports = ({ router, controller }) => {
+  22
   // pages
   router.get('/personal/authentication.html', controller.auth.pc.index); // pc个人中心实名认证
 <<<<<<< HEAD
